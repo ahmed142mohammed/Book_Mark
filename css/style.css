@@ -1,0 +1,185 @@
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(../fonts/Rubik-Medium.ttf);
+}
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(../fonts/Rubik-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.contanier {
+  margin: 40px;
+}
+.main-head {
+  margin: 40px;
+}
+.logo-item {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin: 45px;
+  padding: 40px;
+}
+.item {
+  font-family: Rubik-Regular;
+  font-size: 13px;
+  color: #42475e;
+  margin: 45px;
+  padding: 40px;
+  justify-content: space-around;
+}
+.login {
+  color: #ffffff;
+  background-color: #fa5959;
+  font-family: Rubik-Medium;
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  margin: 70px;
+}
+.text-img {
+  display: flex;
+}
+.simple-text {
+  font-family: Rubik-Medium;
+  font-size: 48px;
+  color: #242a45;
+  margin: 60px;
+  padding: 20px;
+  line-height: 60px;
+}
+.favourite-text {
+  font-family: Rubik-Regular;
+  font-size: 18px;
+  color: #9194a2;
+  line-height: 30px;
+}
+.btn {
+  margin: 30px;
+  padding: 20px;
+}
+.btn-get-on-chrome {
+  border-radius: 15px;
+  font-family: Rubik-Medium;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #5267df;
+  padding: 15px;
+}
+.btn-get-on-firefox {
+  font-family: Rubik-Medium;
+  font-size: 14px;
+  color: #242a45;
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 15px;
+}
+.middle-head {
+  margin: 40px;
+}
+.text-images {
+  display: flex;
+}
+.screen-color {
+  margin: 60px;
+  padding: 20px;
+}
+.text-book {
+  font-family: Rubik-Medium;
+  font-size: 32px;
+  color: #242a45;
+  margin: 60px;
+  padding: 50px;
+}
+.text-organize {
+  font-family: Rubik-Regular;
+  font-size: 18px;
+  color: #aaadb7;
+  line-height: 30px;
+}
+.more-info-btn {
+  font-family: Rubik-Medium;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #5267df;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 20px;
+}
+.bottom-head {
+  margin: 40px;
+}
+.text-download {
+  font-family: Rubik-Medium;
+  font-size: 32px;
+  color: #242a45;
+  text-align: center;
+}
+.text-browser {
+  font-family: Rubik-Regular;
+  font-size: 18px;
+  color: #9194a2;
+  text-align: center;
+  padding: 10px;
+  margin: 15px 400px;
+}
+.websits {
+  margin: 40px;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+}
+.img-chrome {
+  border-radius: 50%;
+  width: 20%;
+}
+.img-firefox {
+  border-radius: 50%;
+  width: 20%;
+}
+.img-opera {
+  border-radius: 50%;
+  width: 20%;
+}
+.add-to {
+  font-family: Rubik-Medium;
+  font-size: 20px;
+  color: #787b8c;
+  line-height: 15px;
+  padding: 10px;
+}
+.version {
+  font-family: Rubik-Regular;
+  font-size: 15px;
+  color: #aaadb7;
+  line-height: 15px;
+  padding: 10px;
+  border-bottom: dotted;
+  margin: 10px;
+}
+.install-btn {
+  border-radius: 30px;
+  font-family: Rubik-Medium;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #5267df;
+  padding: 15px;
+  line-height: 15px;
+  padding: 10px;
+}
+.footer {
+  background-color: #242a45;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+}
